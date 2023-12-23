@@ -1,0 +1,141 @@
+{
+  "timesheets": [
+    {
+      "id": 969,
+      "owner": "58c2c4ca-17fb-4ef6-ad58-5c9d8314d90d",
+      "ownerFullName": "Sebastian Walker",
+      "startDate": "2023-12-19T08:30:00",
+      "endDate": "2023-12-19T09:30:00",
+      "timeZone": "Europe/Berlin",
+      "status": {
+        "id": 1,
+        "name": "new"
+      },
+      "project": {
+        "id": 17,
+        "name": "Client A",
+        "color": "cyan",
+        "tags": []
+      },
+      "activity": {
+        "id": 37,
+        "name": "Design",
+        "billable": true,
+        "tags": [],
+        "plannedQuota": 1
+      },
+      "expenses": [],
+      "createdDate": 1702986608672
+    }
+  ],
+  "projects": [
+    {
+      "id": 974,
+      "name": "Twitter",
+      "color": "blue",
+      "tags": [
+        {
+          "id": 676,
+          "name": "marketing"
+        }
+      ]
+    },
+    {
+      "id": 299,
+      "name": "Client X",
+      "color": "yellow",
+      "activities": [
+        {
+          "id": 301,
+          "name": "Presentation",
+          "billable": true,
+          "tags": [],
+          "plannedQuota": 1
+        },
+        {
+          "id": 302,
+          "name": "Consulting",
+          "billable": true,
+          "tags": [
+            {
+              "id": 356,
+              "name": "consulting"
+            }
+          ],
+          "plannedQuota": 10
+        },
+        {
+          "id": 300,
+          "name": "Coding",
+          "billable": true,
+          "tags": [],
+          "plannedQuota": 25
+        }
+      ],
+      "tags": [
+        {
+          "id": 674,
+          "name": "client-x"
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": 975,
+      "name": "Draft a Tweet",
+      "tags": [
+        {
+          "id": 352,
+          "name": "devops"
+        }
+      ],
+      "plannedQuota": 10,
+      "billable": false
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Sachiko",
+      "lastName": "Miller",
+      "userId": "c1575415-ba35-4e80-b409-7e32bc714d9d",
+      "timeZone": "Europe/Berlin",
+      "email": "sm@moots.io",
+      "role": "interviewer",
+      "activated": false,
+      "active": true,
+      "deactivationDate": null,
+      "language": null,
+      "companyOwner": false
+    },
+    {
+      "id": 2,
+      "firstName": "Claiborne",
+      "lastName": "Allen",
+      "userId": "d77f3464-f487-4e05-8b45-5ec390ea3f28",
+      "timeZone": "Australia/Adelaide",
+      "email": "ca@moots.io",
+      "role": "supervisor",
+      "activated": true,
+      "active": true,
+      "deactivationDate": null,
+      "language": "en-AU",
+      "companyOwner": false
+    },
+    {
+      "id": 3,
+      "firstName": "Sebastian",
+      "lastName": "Walker",
+      "userId": "58c2c4ca-17fb-4ef6-ad58-5c9d8314d90d",
+      "timeZone": "Europe/Berlin",
+      "email": "sw@moots.io",
+      "role": "supervisor",
+      "activated": true,
+      "active": true,
+      "deactivationDate": null,
+      "language": "en-US",
+      "companyOwner": true
+    }
+  ]
+}
