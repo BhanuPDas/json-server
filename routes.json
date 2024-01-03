@@ -4,7 +4,7 @@
 	"/api/projects/usedprojects": "/projects?startDate=:startDate&endDate=:endDate",
 	"/api/activity": "/activities",
 	"/api/super/users": "/users",
-	"/api/user": "/users",
+	"/api/user/:userId": "/users?userId=:userId",
 	"/api/user/create": "/users",
 	"/api/user/delete": "/users"
 }
