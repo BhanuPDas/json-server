@@ -1,7 +1,7 @@
 {
 	"/api/timesheets": "/timesheets",
 	"/api/projects": "/projects",
-	"/api/projects/usedprojects": "/projects?startDate=:startDate&endDate=:endDate",
+	"/api/projects/:id": "/projects?id=:id",
 	"/api/activity": "/activities",
 	"/api/super/users": "/users",
 	"/api/user/:userId": "/users?userId=:userId",
