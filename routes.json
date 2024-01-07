@@ -2,6 +2,7 @@
 	"/api/timesheets": "/timesheets",
 	"/api/projects": "/projects",
 	"/api/projects/:id": "/projects?id=:id",
+	"/api/projects/update/:id": "/projects/:id",
 	"/api/activity": "/activities",
 	"/api/super/users": "/users",
 	"/api/user/:userId": "/users?userId=:userId",
